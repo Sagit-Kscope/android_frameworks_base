@@ -57,8 +57,10 @@ public final class GmsManagerService extends SystemService {
         "com.google.android.gms",
         "com.google.android.gms.policy_sidecar_aps",
         "com.google.android.gsf",
+        "com.google.android.projection.gearhead",
         "com.google.android.syncadapters.calendar",
-        "com.google.android.syncadapters.contacts"
+        "com.google.android.syncadapters.contacts",
+        "com.google.android.apps.wellbeing"
     };
 
     private static final String TAG = "GmsManagerService";

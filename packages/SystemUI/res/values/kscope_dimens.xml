@@ -5,6 +5,7 @@
     <dimen name="status_bar_battery_icon_circle_width">14.5dp</dimen>
 
     <!-- Volume panel -->
+    <dimen name="volume_tool_tip_left_margin">76dp</dimen>
     <dimen name="volume_dialog_panel_transparent_padding_left">8dp</dimen>
 
     <!-- Alert Slider -->
@@ -35,14 +36,26 @@
     <!-- Network traffic -->
     <dimen name="network_traffic_width">25sp</dimen>
 
+    <!-- QuickQS BrightnessBar -->
+    <dimen name="kscope_qqs_brightness_margin_top">12dp</dimen>
+
+    <!-- QS Customizer -->
+    <dimen name="kscope_qs_customize_side_paddings">16dp</dimen>
+
+    <!-- QS Footer -->
+    <dimen name="kscope_qs_footer_height">154dp</dimen>
+
     <!-- QS tile -->
     <dimen name="kscope_qs_tile_text_size">11sp</dimen>
     <dimen name="kscope_qs_tile_secondary_text_size">9sp</dimen>
-    <dimen name="kscope_qs_tile_icon_background_size">48dp</dimen>
+    <dimen name="kscope_qs_tile_icon_background_size">56dp</dimen>
     <dimen name="kscope_qs_tile_icon_padding">2dp</dimen>
     <dimen name="kscope_qs_tile_label_padding_top">7dp</dimen>
     <dimen name="kscope_qs_tile_height">92dp</dimen>
     <dimen name="kscope_qs_tile_chevron_width">10dp</dimen>
     <dimen name="kscope_qs_tile_chevron_height">12dp</dimen>
 
+    <!-- Lyric -->
+    <dimen name="lyric_icon_margin_end">4dp</dimen>
+    <dimen name="lyric_padding_end">4dp</dimen>
 </resources>

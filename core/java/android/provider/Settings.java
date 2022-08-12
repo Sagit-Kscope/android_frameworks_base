@@ -10416,6 +10416,12 @@ public final class Settings {
         public static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
         /**
+         * Wheter to show Wi-Fi standard icon
+         * @hide
+         */
+        public static final String SHOW_WIFI_STANDARD_ICON = "show_wifi_standard_icon";
+
+        /**
          * Control whether unlimited spoof is enabled for Google Photos.
          * @hide
          */
@@ -10470,6 +10476,14 @@ public final class Settings {
          * @hide
          */
         public static final String HIDE_PRIVACY_INDICATOR = "hide_privacy_indicator";
+
+        /**
+         * Enable udfps detection even when screen is off
+         * Default value is 0
+         * @hide
+         */
+        @Readable
+        public static final String SCREEN_OFF_UDFPS_ENABLED = "screen_off_udfps_enabled";
 
         /**
          * These entries are considered common between the personal and the managed profile,
@@ -10571,6 +10585,17 @@ public final class Settings {
          * @hide
          */
         public static final String KEYBOARD_NO_NAVIGATION_BAR = "keyboard_no_navigation_bar";
+
+        /**
+         * Show lyric in status bar when playing music
+         * <ul>
+         *    <li> 0 = disabled </li>
+         *    <li> 1 = enabled </li>
+         * </ul>
+         *
+         * @hide
+         */
+        public static final String STATUS_BAR_SHOW_LYRIC = "status_bar_show_lyric";
 
     }
 
