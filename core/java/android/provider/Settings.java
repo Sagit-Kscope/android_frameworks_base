@@ -3395,6 +3395,9 @@ public final class Settings {
 
             // At one time in System, then Global, but now back in Secure
             MOVED_TO_SECURE.add(Secure.INSTALL_NON_MARKET_APPS);
+
+            // Status bar lyric
+            MOVED_TO_SECURE.add(Secure.STATUS_BAR_SHOW_LYRIC);
         }
 
         @UnsupportedAppUsage(maxTargetSdk = Build.VERSION_CODES.R, trackingBug = 170729553)
@@ -5242,6 +5245,11 @@ public final class Settings {
          * @hide
          */
         public static final String OPTIMIZED_CHARGE_FLOOR = "optimized_charge_floor";
+
+        /**
+         * @hide
+         */
+        public static final String GLOBAL_ACTIONS_LIST = "global_actions_list";
 
         /**
          * IMPORTANT: If you add a new public settings you also have to add it to
@@ -9830,6 +9838,11 @@ public final class Settings {
         public static final String NOTIFICATION_DISMISS_RTL = "notification_dismiss_rtl";
 
         /**
+         * @hide
+         */
+        public static final String ADVANCED_REBOOT = "advanced_reboot";
+
+        /**
          * Comma separated list of QS tiles that have been auto-added already.
          * @hide
          */
@@ -10595,6 +10608,7 @@ public final class Settings {
          *
          * @hide
          */
+        @Readable
         public static final String STATUS_BAR_SHOW_LYRIC = "status_bar_show_lyric";
 
     }
